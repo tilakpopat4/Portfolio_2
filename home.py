@@ -56,7 +56,7 @@ with col1:
     st.markdown("### 📁 Quick Links")
 
     quick_links = {
-        "🎥 View My Cinematography Work": ("https://example.com/cinematography", "https://img.icons8.com/color/48/video-editing.png"),
+        "🎥 View My Cinematography Work": ("https://www.youtube.com/@tilakpopatfilms", "https://img.icons8.com/color/48/video-editing.png"),
         "🔐 Explore My Cybersecurity Projects": ("https://example.com/cybersecurity", "https://img.icons8.com/color/48/lock--v1.png"),
         "📧 Contact Me": ("https://example.com/contact", "https://img.icons8.com/color/48/secured-letter.png"),
     }
@@ -100,7 +100,7 @@ cols = st.columns(4)
 
 with cols[0]:
     st.markdown("""
-    <a href="https://github.com/yourgithub" class="social-icon" target="_blank">
+    <a href="https://github.com/tilakpopat4" class="social-icon" target="_blank">
         <img src="https://img.icons8.com/color/48/github--v1.png" alt="GitHub"/>
     </a>
     """, unsafe_allow_html=True)
