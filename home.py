@@ -133,5 +133,5 @@ st.markdown("""
         <button style='font-size:18px; padding:10px 20px;'>📸 Visit Tilak's Photo Library</button>
     </a>
 """, unsafe_allow_html=True)
-st.markdown("### 🔗 [Go to Tilak's Photo Library](./photo_library)")
+st.markdown("### 🔗 [Go to Tilak's Photo Library](https://portfolio2-7.streamlit.app/)")
 
