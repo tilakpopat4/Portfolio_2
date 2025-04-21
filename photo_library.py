@@ -6,6 +6,7 @@ st.set_page_config(page_title="Tilak's Photo Gallery", layout="wide")
 
 st.title("📸 Tilak's Photography Library")
 
+st.markdown("---")
 # Load image folder
 image_folder = "images"
 image_files = [f for f in os.listdir(image_folder) if f.endswith((".png", ".jpg", ".jpeg"))]
