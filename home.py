@@ -127,6 +127,7 @@ with cols[3]:
     </a>
     """, unsafe_allow_html=True)
 
+st.markdown("---")
 st.markdown("### 🔗 [Go to Tilak's Photo Library](https://portfolio2-7.streamlit.app/)")
 
 
