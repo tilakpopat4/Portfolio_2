@@ -22,3 +22,6 @@ for index, image_file in enumerate(image_files):
 
     with cols[index % 4]:
         st.image(img, use_container_width=False, caption=os.path.splitext(image_file)[0])
+
+st.markdown("---")
+st.markdown("### 🔗 [Back To The Home Page](https://tilakpopatportfolio.streamlit.app/)")
