@@ -61,7 +61,7 @@ with col1:
     quick_links = {
         "🎥 View My Cinematography Work": ("https://example.com/cinematography", "https://img.icons8.com/color/48/video-editing.png"),
         "🔐 Explore My Cybersecurity Projects": ("https://example.com/cybersecurity", "https://img.icons8.com/color/48/lock--v1.png"),
-        "📧 Contact Me": ("https://example.com/contact", "https://img.icons8.com/color/48/secured-letter.png"),
+        "📧 Contact Me": ("mailto:tilakpopat2007@gmail.com", "https://img.icons8.com/color/48/secured-letter.png"),
     }
 
     for text, (link, icon) in quick_links.items():
