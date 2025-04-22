@@ -101,7 +101,7 @@ cols = st.columns(4)
 
 with cols[0]:
     st.markdown("""
-    <a href="https://github.com/yourgithub" class="social-icon" target="_blank">
+    <a href="https://github.com/tilakpopat4" class="social-icon" target="_blank">
         <img src="https://img.icons8.com/color/48/github--v1.png" alt="GitHub"/>
     </a>
     """, unsafe_allow_html=True)
