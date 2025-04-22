@@ -82,11 +82,11 @@ with col1:
     st.markdown(" ")
 
     try:
-        with open("Tilak_Resume.pdf", "rb") as file:
-            pdf_data = file.read()
-            b64_pdf = base64.b64encode(pdf_data).decode()
+    with open("Tilak_Resume.pdf", "rb") as file:
+        pdf_data = file.read()
+        b64_pdf = base64.b64encode(pdf_data).decode()
 
-         href = f'''
+        href = f'''
             <div style="text-align: center;">
                 <a href="data:application/pdf;base64,{b64_pdf}" download="Tilak_Resume.pdf">
                     <button style="
