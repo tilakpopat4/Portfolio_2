@@ -43,8 +43,6 @@ with col1:
     st.markdown('<h1 class="hero-title">Hi, I\'m Tilak Popat</h1>', unsafe_allow_html=True)
     st.markdown('<p class="hero-subtitle">Cybersecurity Student | Cinematography Enthusiast 🎬</p>', unsafe_allow_html=True)
     
-st.markdown("---")
-
     # Typing animation (JS won't run in Streamlit, but left for structure)
     st.markdown("""
     <div style="color: white; font-size: 22px; font-weight: bold;">
