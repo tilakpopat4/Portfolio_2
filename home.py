@@ -80,19 +80,17 @@ with col1:
 
     st.markdown(" ")
 
-    # --- Resume Download ---
     try:
         with open("Tilak_Resume.pdf", "rb") as file:
             st.download_button(
-                label="📄 Download My Resume",
+                label="💼✨ Download Tilak's Resume",
                 data=file,
                 file_name="Tilak_Resume.pdf",
                 mime="application/pdf",
                 key="resume_download"
             )
     except FileNotFoundError:
-        st.warning("Resume file not found. Please add 'Tilak_Resume.pdf' to your app folder.")
-
+        st.warning("🚫 Resume file not found! Please add 'Tilak_Resume.pdf' to your app folder.")
 with col2:
     try:
         st.image("cropped_image (1).png", width=350, caption="👋 Hello from Tilak!")
