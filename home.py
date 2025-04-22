@@ -136,5 +136,4 @@ with cols[3]:
 st.markdown("---")
 st.markdown("### 🔗 [Go to Tilak's Photo Library](https://portfolio2-7.streamlit.app/)")
 
-st.markdown("---")
 st.markdown("### 🔗 [Upcoming Projects](https://portfolio2-c3.streamlit.app/)")
