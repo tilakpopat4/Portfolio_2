@@ -74,6 +74,8 @@ with col1:
             </div>
         """, unsafe_allow_html=True)
 
+    st.markdown("---")
+
     st.markdown(" ")
 
     # --- Resume Download ---
