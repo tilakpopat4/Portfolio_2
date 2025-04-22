@@ -55,6 +55,8 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
 
+        st.markdown("---")
+
     # --- Quick Links with Icons ---
     st.markdown("### 📁 Quick Links")
 
