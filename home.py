@@ -89,7 +89,7 @@ with col1:
 
 with col2:
     try:
-        st.image("cropped_image (1)", width=350, caption="👋 Hello from Tilak!")
+        st.image("cropped_image (1).png", width=350, caption="👋 Hello from Tilak!")
     except:
         st.info("📷 Profile image not found. Upload your image in the folder!")
 
