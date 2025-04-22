@@ -20,7 +20,11 @@ cols = st.columns(4)
 for index, image_file in enumerate(image_files):
     image_path = os.path.join(image_folder, image_file)
     img = Image.open(image_path)
-
+try:
+    img = Image.open(image_path)
+except (FileNotFoundError, Image.UnidentifiedImageError) as e:
+    st.error(f"⚠️ Failed to load image: {e}")
+    
     with cols[index % 4]:
         st.image(img, use_container_width=False, caption=os.path.splitext(image_file)[0])
 
