@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 
 # Page setup
 st.set_page_config(page_title="Tilak Popat's Portfolio", layout="wide")
@@ -80,7 +81,7 @@ with col1:
 
     st.markdown(" ")
 
-    try:
+  try:
     with open("Tilak_Resume.pdf", "rb") as file:
         pdf_data = file.read()
         b64_pdf = base64.b64encode(pdf_data).decode()
