@@ -82,16 +82,16 @@ with col1:
     st.markdown(" ")
 
     try:
-    with open("Tilak_Resume.pdf", "rb") as file:
-        st.download_button(
-            label="💼✨ Download Tilak's Resume",
-            data=file,
-            file_name="Tilak_Resume.pdf",
-            mime="application/pdf",
-            key="resume_download"
-        )
-except FileNotFoundError:
-    st.warning("🚫 Resume file not found! Please add 'Tilak_Resume.pdf' to your app folder.")
+        with open("Tilak_Resume.pdf", "rb") as file:
+            st.download_button(
+                label="💼✨ Download Tilak's Resume",
+                data=file,
+                file_name="Tilak_Resume.pdf",
+                mime="application/pdf",
+                key="resume_download"
+            )
+    except FileNotFoundError:
+        st.warning("🚫 Resume file not found! Please add 'Tilak_Resume.pdf' to your app folder.")
     
 with col2:
     try:
