@@ -94,4 +94,4 @@ show_shortfilm(
     "An emotional visual journey without words. 'Dastaan' highlights family bonds, sacrifice, and the power of expression through silence.",
     "Dec – 2025"
 )
-st.markdown("### 🔗 [Back to the Home Page](./home)")
+st.markdown("### 🔗 [Back to the Home Page](https://tilakpopatportfolio.streamlit.app/)")
