@@ -7,7 +7,12 @@ Image.MAX_IMAGE_PIXELS = None
 
 st.set_page_config(page_title="Tilak's Photo Gallery", layout="wide")
 
-st.title("📸 Tilak's Photography Library")
+st.title("📸 Tilak's Photography Gallary")
+
+st.markdown("---")
+
+st.title("HIGHLIGHT : Each & Every Photo of this Gallary is clicked by a Mobile Camera !")
+st.title("Model - Redmi Note 13 Pro 5G")
 
 st.markdown("---")
 
