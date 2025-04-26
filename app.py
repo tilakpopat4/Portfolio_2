@@ -106,7 +106,7 @@ show_shortfilm(
 
 # =================== Shortfilm 3 ===================
 show_shortfilm(
-    "55.png",
+    "Character Reveal.png",
     "KILLER - [An Action Film]",
     "An emotional visual journey without words. 'Dastaan' highlights family bonds, sacrifice, and the power of expression through silence.",
     "Dec – 2025",
