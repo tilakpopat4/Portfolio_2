@@ -97,7 +97,7 @@ show_shortfilm(
 
 # =================== Shortfilm 2 ===================
 show_shortfilm(
-    "2.png",
+    "mqdefault.jpg",
     "COVID - 2019 - [A Family Film]",
     "Explores the inner conflicts of a young adult dealing with identity, anxiety, and societal pressure. A gripping introspective tale.",
     "Oct – 2025",
