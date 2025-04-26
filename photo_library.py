@@ -7,12 +7,14 @@ Image.MAX_IMAGE_PIXELS = None
 
 st.set_page_config(page_title="Tilak's Photo Gallery", layout="wide")
 
+# Main Title
 st.title("📸 Tilak's Photography Gallary")
 
 st.markdown("---")
 
-st.title("HIGHLIGHT : Each & Every Photo of this Gallary is clicked by a Mobile Camera !")
-st.title("Model - Redmi Note 13 Pro 5G")
+# Small and thinner subtitles
+st.markdown("<h4 style='font-weight: 400;'>HIGHLIGHT : Each & Every Photo of this Gallary is clicked by a Mobile Camera !</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='font-weight: 400;'>Model - Redmi Note 13 Pro 5G</h4>", unsafe_allow_html=True)
 
 st.markdown("---")
 
@@ -31,7 +33,7 @@ for index, image_file in enumerate(image_files):
     img = Image.open(image_path)
 
     # Optional: Resize very large images to speed up loading
-    max_width = 1200  # You can change this value
+    max_width = 1200  # Adjust if needed
     if img.width > max_width:
         img = img.resize((max_width, int(img.height * max_width / img.width)))
 
