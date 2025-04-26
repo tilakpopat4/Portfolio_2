@@ -2,11 +2,15 @@ import os
 import streamlit as st
 from PIL import Image
 
+# Allow opening large images without DecompressionBombError
+Image.MAX_IMAGE_PIXELS = None
+
 st.set_page_config(page_title="Tilak's Photo Gallery", layout="wide")
 
 st.title("📸 Tilak's Photography Library")
 
 st.markdown("---")
+
 # Load image folder
 image_folder = "images2"
 image_files = [f for f in os.listdir(image_folder) if f.endswith((".png", ".jpg", ".jpeg"))]
@@ -20,7 +24,12 @@ cols = st.columns(4)
 for index, image_file in enumerate(image_files):
     image_path = os.path.join(image_folder, image_file)
     img = Image.open(image_path)
-    
+
+    # Optional: Resize very large images to speed up loading
+    max_width = 1200  # You can change this value
+    if img.width > max_width:
+        img = img.resize((max_width, int(img.height * max_width / img.width)))
+
     with cols[index % 4]:
         st.image(img, use_container_width=False, caption=os.path.splitext(image_file)[0])
 
