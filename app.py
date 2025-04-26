@@ -73,7 +73,7 @@ def show_shortfilm(image_path, title, description, release_date):
 
 # =================== Shortfilm 1 ===================
 show_shortfilm(
-    "1.png",
+    "PARIKSHA (1).png",
     "PARIKSHA - [A Shortfilm]",
     "A mobile shortfilm based on <strong>Engineering Life Hurdles</strong> with <strong>4 Chapters</strong>. Each chapter delivers a helpful lesson for students.",
     "Aug – 2025"
